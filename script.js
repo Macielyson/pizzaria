@@ -24,7 +24,7 @@ pizzaJson.map(function (item, index) {
         c('.pizzaInfo--desc').innerHTML = pizzaJson[key].description;
         c('.pizzaInfo--actualPrice').innerHTML = `R$ ${pizzaJson[key].price.toFixed(2)}`;
         c('.pizzaInfo--size.selected').classList.remove('selected');
-
+//
         console.log(pizzaJson[key]);
 
         document.querySelectorAll('.pizzaInfo--size').forEach((size, sizeIndex) => {
